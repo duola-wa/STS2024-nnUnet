@@ -36,7 +36,7 @@ nnUNetv2_train 411 2d all --npz -tr nnUNetTrainerNoDA
 ```
 self.save_checkpoint(join(self.output_folder, str(current_epoch + 1) + '.pth'))
 ```
-把数据处理成第二阶段训练的形式，即0把每个原始数据切分成四个象限的数据。
+把数据处理成第二阶段训练的形式，即把每个原始数据切分成四个象限的数据。
 ```
 python process/dataPrepareForSegInTooth.py        
 ```
