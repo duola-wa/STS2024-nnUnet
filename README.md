@@ -14,6 +14,7 @@ pip install -e .
 
 #### 2.2. 模型训练
 第一步先训练象限分割模型
+
 把FDI编号转化为象限编号
 ```
 python process/FDI2Qua.py
